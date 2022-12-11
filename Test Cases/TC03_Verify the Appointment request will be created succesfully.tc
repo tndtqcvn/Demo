@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Login successfully</description>
+   <name>TC03_Verify the Appointment request will be created succesfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a29dc520-53a0-4d14-8e47-1c9acf747d7b</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>3bfc75d2-c1d2-45f3-ae01-93a2d107abb9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>2189f9f1-2c33-4ba1-b9c8-89abe9761263</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
