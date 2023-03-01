@@ -21,6 +21,7 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Object Repository/txt_Username04'), username)
 WebUI.setEncryptedText(findTestObject('Object Repository/txt_Password04'), password)
 
+'Click Submit button'
 WebUI.click(findTestObject('Object Repository/btn_Submit04'))
 
 'Verify the Welcome message is present'
