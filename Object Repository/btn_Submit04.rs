@@ -3,12 +3,8 @@
    <description></description>
    <name>btn_Submit04</name>
    <tag></tag>
-   <elementGuidId>9c1a63eb-1e75-4f30-a8fa-9a5bd34e9cef</elementGuidId>
+   <elementGuidId>733bbf0d-8a03-4447-8a81-9528568f5dea</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//button[@type='submit']</value>
