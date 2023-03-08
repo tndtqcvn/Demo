@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Atlassian_Verify that Hover over me button will be displayed tooltip value and color correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9de77f6-ea17-496b-bc8f-db73a7edc33c</testCaseGuid>
+</TestCaseEntity>
