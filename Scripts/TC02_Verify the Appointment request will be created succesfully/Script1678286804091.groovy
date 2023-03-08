@@ -36,6 +36,9 @@ WebUI.click(findTestObject('Object Repository/btn_BookAppointment'))
 'Verify Appointment Confirmation is present'
 WebUI.verifyTextPresent("Appointment Confirmation", false)
 
+'Delay 2s'
+WebUI.delay(2)
+
 'Close browser'
 WebUI.closeBrowser()
 

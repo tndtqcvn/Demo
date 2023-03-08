@@ -6,11 +6,11 @@
    <elementGuidId>73f07305-97f0-4707-a9a5-41090ff7725b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[@class='text-vertical-center']//h1	</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
