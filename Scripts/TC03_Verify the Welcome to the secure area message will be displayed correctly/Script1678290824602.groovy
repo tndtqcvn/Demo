@@ -19,4 +19,5 @@ WebUI.verifyTextPresent("Welcome to the Secure Area. When you are done click log
 'Delay 2s'
 WebUI.delay(2)
 
+'Close browser'
 WebUI.closeBrowser()
