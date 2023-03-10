@@ -17,18 +17,18 @@ WebUI.click(findTestObject('Object Repository/btn_Login'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/btn_BookAppointment'),2)
 
 'Input value for Facility, Apply for hospital, Healthcare program'
-WebUI.click(findTestObject('Object Repository/ddl_Facility'))
-WebUI.check(findTestObject('Object Repository/chk_ApplyHospital'))
-WebUI.click(findTestObject('Object Repository/radio_Healthcare'))
+WebUI.click(findTestObject('null'))
+WebUI.check(findTestObject('null'))
+WebUI.click(findTestObject('null'))
 
 'Declare todayDate to retrieve current date'
 Date todayDate = new Date();
 def todayFormatted = todayDate.format("MM/dd/yyyy");
 
-WebUI.setText(findTestObject('Object Repository/txt_VisitDate'), todayFormatted)
+WebUI.setText(findTestObject('null'), todayFormatted)
 
 'Input value for Comment'
-WebUI.setText(findTestObject('Object Repository/txt_Comment'), "Demo testing in Healthcare application - Book a new appointment")
+WebUI.setText(findTestObject('null'), "Demo testing in Healthcare application - Book a new appointment")
 
 'Click Book Appointment button'
 WebUI.click(findTestObject('Object Repository/btn_BookAppointment'))
