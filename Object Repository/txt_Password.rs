@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='txt-password']</value>
+         <value>//*[@name = 'password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>name</name>
       <type>Main</type>
-      <value>//input[@id='txt-password']</value>
-      <webElementGuid>b981ae20-80a9-48ab-8bb5-482ea17ddb47</webElementGuid>
+      <value>password</value>
    </webElementProperties>
 </WebElementEntity>

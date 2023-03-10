@@ -18,11 +18,11 @@ WebUI.openBrowser("https://the-internet.herokuapp.com/login")
 WebUI.maximizeWindow()
 
 'Input username and password'
-WebUI.setText(findTestObject('Object Repository/txt_Username04'), username)
-WebUI.setEncryptedText(findTestObject('Object Repository/txt_Password04'), password)
+WebUI.setText(findTestObject('null'), username)
+WebUI.setEncryptedText(findTestObject('null'), password)
 
 'Click Submit button'
-WebUI.click(findTestObject('Object Repository/btn_Submit04'))
+WebUI.click(findTestObject('null'))
 
 'Verify the Welcome message is present'
 WebUI.verifyTextPresent("Welcome to the Secure Area. When you are done click logout below.", false)

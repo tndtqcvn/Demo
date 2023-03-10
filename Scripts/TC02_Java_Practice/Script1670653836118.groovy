@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
  WebUI.openBrowser("https://katalon-demo-cura.herokuapp.com/")
 
 'Declare getMessage to retrieve Cura text on the FE'
-String getMessage = WebUI.getText(findTestObject('Object Repository/msg_Cura'))
+String getMessage = WebUI.getText(findTestObject('null'))
 println getMessage
 
 int range = -4250000;

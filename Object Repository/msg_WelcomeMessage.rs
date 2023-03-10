@@ -3,7 +3,7 @@
    <description></description>
    <name>msg_WelcomeMessage</name>
    <tag></tag>
-   <elementGuidId>e3325088-7b5b-4c59-b2b3-fefe480dcb57</elementGuidId>
+   <elementGuidId>5a1c53fb-9bc2-4633-9768-66b466876d85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
