@@ -27,24 +27,24 @@ println range
 String hello = 'Hello world';
 println hello*/
 
-'Prepare data to select/ compare/ add/ remove in Hashmap type'
-def expectedData = [firstname:"Terry", lastname:"Green", age:"40", city:"Washington FC"]
-
-String selectData = expectedData.get("city")
-println selectData
-
-expectedData.replace("age" , "50")
-println expectedData
-
-expectedData.put("Status", "Married")
-println expectedData
-
-expectedData.remove("lastname")
-println expectedData
-
-expectedData.each{println it}
-
-expectedData.eachWithIndex{it, i -> println "$i : $it"}
+//'Prepare data to select/ compare/ add/ remove in Hashmap type'
+//def expectedData = [firstname:"Terry", lastname:"Green", age:"40", city:"Washington FC"]
+//
+//String selectData = expectedData.get("city")
+//println selectData
+//
+//expectedData.replace("age" , "50")
+//println expectedData
+//
+//expectedData.put("Status", "Married")
+//println expectedData
+//
+//expectedData.remove("lastname")
+//println expectedData
+//
+//expectedData.each{println it}
+//
+//expectedData.eachWithIndex{it, i -> println "$i : $it"}
 
 
 //TestObject testObj = findTestObject('icon_Social_networking')

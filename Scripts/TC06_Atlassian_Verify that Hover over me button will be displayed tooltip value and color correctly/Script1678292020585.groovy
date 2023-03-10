@@ -7,13 +7,13 @@ WebUI.openBrowser("https://atlassian.design/components/tooltip/examples")
 WebUI.maximizeWindow()
 
 'Hover on button to get Xpath of button'
-WebUI.mouseOver(findTestObject('Object Repository/Session 04/btn_HoverOverMe'))
+WebUI.mouseOver(findTestObject('Object Repository/btn_HoverOverMe'))
 
 'Verify Hello Word is present'
-WebUI.verifyElementText(findTestObject('Object Repository/Session 04/Tt_Hello'), "Hello World")
+WebUI.verifyElementText(findTestObject('Object Repository/Tt_Hello'), "Hello World")
 
 'Declare backgroundColor to get CSS Value of Hover Over Me button'
-String backgroundColor = WebUI.getCSSValue(findTestObject('Object Repository/Session 04/btn_HoverOverMe'), "background")
+String backgroundColor = WebUI.getCSSValue(findTestObject('Object Repository/btn_HoverOverMe'), "background")
 
 'Convert RGB color to Hexa'
 String convertBackgroundcolor = CustomKeywords.'Common.convertRGBAToHex'(backgroundColor)
@@ -26,5 +26,3 @@ WebUI.delay(2)
 
 'CLose browser'
 WebUI.closeBrowser()
-
-
