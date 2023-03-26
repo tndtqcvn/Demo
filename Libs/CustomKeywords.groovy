@@ -11,3 +11,11 @@ def static "Common.convertRGBAToHex"(
     (new Common()).convertRGBAToHex(
         	backgroundColor)
 }
+
+def static "Common.getRandom"(
+    	int total	
+     , 	int numOfItems	) {
+    (new Common()).getRandom(
+        	total
+         , 	numOfItems)
+}

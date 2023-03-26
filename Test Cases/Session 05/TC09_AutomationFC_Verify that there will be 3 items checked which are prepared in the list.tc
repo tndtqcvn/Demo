@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_AutomationFC_Verify that there will be 3 items checked which are prepared in the list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4851ff77-66f2-467e-89f2-e78ed4c69865</testCaseGuid>
+</TestCaseEntity>
